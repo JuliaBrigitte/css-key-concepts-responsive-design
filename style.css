@@ -4,17 +4,114 @@
     --light: #E7ECEF;
     --dark: #272932;
     --camel: #D8A47F;
+    --darktext: #31386782;
+}
+
+html {
+    font-size: 100%; // base size 100% usually means 16px
+}
+
+h1 {
+    font-size: 2.25rem
+}
+
+p  {
+    font-size: .75rem
 }
 
 body {
     background-color: var(--light);
+    font-family: "Dancing Script", sans-serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.search {
+    flex: 1;
+}
+
+.navbar > li {
+    flex: 1;
+}
+
+@media all and (max-width: 600px) {
+
+    .navbar {
+        flex-wrap: wrap;
+    }
+
+    .navbar > li {
+        flex-basis: 50%;
+    }
+
+}
+
+@media screen and (max-width: 550px){
+    .species{
+        display: none
+    }
+    .fav-foods{
+        display: none
+    }
+    .birth-year{
+        display: none
+    }
+}
+
+@media screen and (min-width: 700px){
+    h1 {
+        font-size: 4.25rem
+    }
+
+    p  {
+        font-size: 1.75rem
+    }
+
+    body {
+        background-color: pink;
+    }
+}
+@media screen and (min-width: 1000px){
+    h1 {
+        font-size: 5.25rem
+    }
+
+    p  {
+        font-size: 2.25rem
+    }
+
+    body {
+        background-color: lightblue;
+    }
+}
+
+.content {
+    font-size: 1.5rem; // rem is relative to our base font size, so this is 24px because 1.5 of 16 is 16 + 8
 }
 
 .card {
     padding: 10px;
     margin: 10px;
+    border: 2px solid #384cee;
 }
+
 
 img {
     width: 250px;
+}
+
+div.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: var(--dark);
+        background-color: var(--darktext);
+    }
 }

@@ -1,3 +1,7 @@
+# My solution
+
+![Screenshot of result](https://github.com/JuliaBrigitte/css-key-concepts-responsive-design/img/CatCss.png)
+
 # CSS Key Concepts: Responsive Design 
 
 Welcome to Feline Flexbox with Cat Cards!

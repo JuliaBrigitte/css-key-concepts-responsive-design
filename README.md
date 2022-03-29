@@ -1,6 +1,6 @@
 # My solution
 
-![Screenshot of result](https://github.com/JuliaBrigitte/css-key-concepts-responsive-design/img/CatCss.png)
+![Screenshot of result]https://github.com/JuliaBrigitte/css-key-concepts-responsive-design/blob/main/img/CatCss.png)
 
 # CSS Key Concepts: Responsive Design 
 
